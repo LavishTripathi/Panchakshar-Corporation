@@ -1,0 +1,187 @@
+.hover-wrapper {
+  margin-top: 20vh;  
+  padding: 5vh 18vw;
+  overflow: hidden;
+  background: linear-gradient(160deg, #292F45 50%, #5768a7 ); 
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20vh;
+}
+
+.hover-cont{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-control{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hover-wrapper:hover {
+  box-shadow: 0 0 15px rgba(0, 183, 255, 0.4), 0 0 30px rgba(0, 183, 255, 0.3), 0 0 60px rgba(0, 183, 255, 0.2);
+}
+
+/* The actual card, now positioned relative inside the wrapper */
+.contact-cards {
+  background-color: #292f45;
+  border-radius: 12.39px;
+  z-index: 1;
+}
+
+
+.durgesh-contact {
+  width: 264px;
+  height: 151px;
+}
+
+.contact-button {
+  width: 137px;
+  height: 37px;
+}
+
+.overlap-group-8 {
+  width: 135px;
+  height: 37px;
+  border: 1.11px solid;
+  border-color: #f5eed5;
+}
+
+.text-wrapper-36 {
+  position: relative;  
+  width: 54px;
+  top: 8px;
+  left: 39px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #f5eed5;
+  font-size: 15.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.text-wrapper-37 {
+  font-family: "SF Pro Display-Bold", Helvetica;
+  color: #f5eed5;
+}
+
+.text-wrapper-38 {
+  width: 248px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  color: #f5eed5;
+  font-size: 27.8px;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  width: 83px;
+  height: 32px;
+}
+
+
+.facebook {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.linkedin {
+  width: 32px;
+  height: 32px;
+    margin: 0;
+  padding: 0;
+}
+
+.Whatsapp{
+  margin-left: 10px;
+  padding: 0;
+    width: 24px;
+  height: 24px;
+}
+
+.img-4{
+    background: url(../Images/whatsapp-brands-solid.svg);
+    translate: 4px -5px;
+    height: 21px;
+    -webkit-filter: drop-shadow(0 0 100px white);
+    filter: drop-shadow(0 0 0 100px white);
+    filter: drop-shadow(0 0 0 100px white);
+    filter: drop-shadow(0 0 0 10px white);
+}
+
+.durgesh-sir-photo {
+  width: 200px;
+  height: 201px;
+}
+
+
+.overlap-26 {
+  position: relative;
+  height: 201px;
+}
+
+
+.ellipse-3 {
+  position: absolute;
+  width: 200px;
+  height: 195px;
+  top: 6px;
+  left: 0;
+  background-color: #f5eed5;
+  border-radius: 100px / 97.5px;
+  border: 3px solid;
+  border-color: #414d78;
+  
+}
+
+
+.mask-group-2 {
+  position: absolute;
+  width: 175px;
+  height: 198px;
+  top: 0;
+  left: 17px;
+}
+
+
+
+.mask-group-3 {
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  top: 4px;
+  left: 3px;
+  z-index: 40;
+}
+.mask-containerr {
+  transition: transform 0.5s;
+  z-index: 40;
+  transform-origin: 100px 50px;
+}
+
+.mask-containerr:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  
+
+}
+
+@media (max-width: 580px) {
+    .hover-cont{
+        display: flex;
+        flex-direction: column;
+    }
+}

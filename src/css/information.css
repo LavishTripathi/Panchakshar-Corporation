@@ -1,0 +1,189 @@
+.additional-info {
+  background: linear-gradient(120deg, #292F45 60%, #5768a7);
+  border-radius: 12.68px;
+  transition: box-shadow 0.3s ease;
+  padding: 40px 25px;
+  width: 68%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+  margin-top: 20px;
+
+}
+
+.additional-info:hover {
+  box-shadow: 0 0 20px rgba(0, 183, 255, 0.4),
+              0 0 30px rgba(0, 183, 255, 0.3),
+              0 0 60px rgba(0, 183, 255, 0.2);
+}
+
+.text-wrapper-23 {
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 58.5px;
+  color: #f5eed5;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* 2-column layout */
+
+.info-column {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:19px;
+}
+
+.column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info {
+  color: #f5eed5;
+  font-size: 20px; /* base size if no class overrides */
+  text-align: left;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* TEXT STYLES — use your exact styles */
+.text-wrapper-14 {
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15.6px;
+  letter-spacing: 0.31px;
+  line-height: normal;
+}
+
+.text-wrapper-15 {
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15.6px;
+  letter-spacing: 0.31px;
+  line-height: normal;
+}
+
+.text-wrapper-16 {
+  font-weight: 700;
+  font-size: 18.5px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+}
+
+.text-wrapper-17 {
+  font-size: 18.5px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+}
+
+.text-wrapper-18 {
+  font-weight: 700;
+  font-size: 18.5px;
+}
+
+.text-wrapper-19 {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #f5eed5;
+  font-size: 22.5;
+}
+
+.text-wrapper-20 {
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 23.7px;
+}
+
+.text-wrapper-21 {
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 18.5px;
+}
+
+.text-wrapper-22 {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 18.5px;
+}
+
+/* Buttons */
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.div-wrapper,
+.overlap-5 {
+  background-color: #1a73e8;
+  border-radius: 57.57px;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.div-wrapper:hover,
+.overlap-5:hover {
+  background-color: #125bc3;
+}
+
+.additional-info p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 400px;
+  }
+
+/* Responsive */
+@media (max-width:820px) {
+  .text-wrapper-23{
+    font-size: 46px;
+  }
+}
+@media (max-width: 768px) {
+  .additional-info{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .text-wrapper-23 {
+    font-size: 38px;
+    white-space: normal;
+  }
+
+  .info-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-wrapper,
+  .overlap-5 {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+  .additional-info p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}

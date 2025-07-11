@@ -1,0 +1,628 @@
+.overlap-17 {
+width: 69%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 10px;
+padding-left: 16px;
+}
+
+.productcont{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.total img, .total .txt{
+flex: 1 1 48%;
+max-width: 48%;
+}
+
+.total img{
+  width: 100%;  
+  object-fit: cover; 
+}
+.total {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+
+.tact{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.in-control {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px 20px; /* some spacing */
+}
+
+
+ .overlap-18 {
+  width: 100%;
+  max-width: 1020px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.flex-slider {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+.flex-slider .slide {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  transition: flex 0.4s ease;
+}
+
+.flex-slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.flex-slider .slide .text {
+
+  color: #f5eed5;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  max-width: 90%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+ 
+
+  
+}
+
+.flex-slider .slide .text h2 {
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.flex-slider .slide .text p {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  line-height: 1.4;
+}
+
+/* HOVER EFFECT */
+.flex-slider:hover .slide {
+  flex: 1;
+}
+
+.flex-slider .slide:hover {
+  flex: 2.2;
+}
+
+.flex-slider .slide:hover img {
+  transform: scale(1.05);
+  max-height: 600px;
+}
+
+
+ .element-txts {
+
+  height: 214px;
+}
+
+ .size-charts-we {
+ 
+
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #f5eed5;
+  font-size: 33.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+ .text-wrapper-29 {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 24.3px;
+}
+
+ .patterns-we {
+
+  
+  top: 0;
+  left: 341px;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #f5eed5;
+  font-size: 33.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+ .colours-our-client {
+
+
+  top: 0;
+  left: 655px;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #f5eed5;
+  font-size: 33.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+ .polo-txt {
+      padding-top: 25px; 
+}
+
+ .school-uniforms {
+   position: relative;
+  z-index: 2;
+  user-select: text;
+ pointer-events: auto;
+
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #2b3729;
+  font-size: 24.6px;
+  letter-spacing: 0;
+  line-height: 0.9;
+  
+}
+.flex-slider .slide .text {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: #f5eed5;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  max-width: 90%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  padding: 0 10px;
+}
+
+.flex-slider .slide .text h2 {
+  font-size: clamp(20px, 4vw, 28px); /* responsive scaling */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.flex-slider .slide .text p {
+  font-size: clamp(14px, 2.5vw, 18px);
+  line-height: 1.4;
+}
+
+ .text-wrapper-31 {
+  font-weight: 700;
+  font-size: 17.9px;
+}
+
+ .text-wrapper-32 {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 17.9px;
+}
+
+ .enquire-more {
+    padding-top: 16px;
+  top: 283px;
+  left: 0;
+  color: var(--main-02);
+  font-size: 17.9px;
+  letter-spacing: 0.36px;
+  white-space: nowrap;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 5;            
+  pointer-events: auto;   
+  cursor: pointer;        
+}
+.poloshirtt{
+    transform: translateX(-30px) translateY(-6px);
+}
+
+ .polo {
+ transition: transform 0.5s; 
+ z-index: 1;
+}
+.polo:hover{
+  transform: scale(1.04);
+  z-index:10;
+}
+
+ .tactical-txt {
+  padding-top: 12px;  
+
+
+}
+
+
+
+ .tactical-garments {
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #2b3729;
+  font-size: 24.6px;
+  letter-spacing: 0;
+  line-height: 0.95;
+}
+
+
+
+ .tactical {
+ 
+
+  height: 410px;
+  top: 2287px;
+  left: 493px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.tactical:hover{
+  transform: scale(1.1);
+  z-index:5;
+}
+
+
+
+ .tracksuit {
+ 
+
+  height: 706px;
+  display: flex;
+  flex-direction: row; 
+  transition: transform 0.5s;
+}
+.tracksuit:hover{
+  transform: scale(1.05);
+  z-index:10;
+}
+
+ .cargo-txt {
+      padding-top: 12px; 
+
+  height: 449px;
+  top: 1163px;
+  left: 39px;
+  
+}
+
+
+
+ .lowers-waist-elastic {
+
+ 
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #2b3729;
+  font-size: 24.5px;
+  letter-spacing: 0;
+  line-height:0.9;
+}
+
+
+
+ .caargo {
+ 
+
+  height: 500px;
+  top: 1152px;
+  left: 510px;
+  object-fit: cover;
+  transition: transform 0.5s
+}
+.caargo:hover{
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+ .jacket {
+
+
+  height: 610px;
+  top: 538px;
+  left: 2px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.jacket:hover{
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+ .tshirt-txt {
+      padding-top: 12px; 
+
+  height: 494px;
+}
+
+ .t-shirts-neck {
+
+ 
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #292f45;
+  font-size: 24.5px;
+  letter-spacing: 0;
+  line-height: 0.95;
+}
+
+ 
+
+ .tshirt {
+  
+
+  height: 586px;
+  top: 0;
+  left: 439px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.tshirt:hover{
+  transform :scale(1.1);
+  z-index: 10;
+}
+
+
+ .tracksuit-txt {
+      padding-top: 12px; 
+
+  height: 502px;
+}
+
+
+
+ .jerseys-neck-round-v {
+ 
+
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #2b3729;
+  font-size: 24.5px;
+  letter-spacing: 0;
+  line-height: 0.95;
+}
+
+
+ .jacket-txt {
+   padding-top: 12px; 
+
+  height: 477px;
+}
+
+
+
+ .hoodies-style {
+
+ 
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 400;
+  color: #292f45;
+  font-size: 24.5px;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+ .product-txt {
+    margin-bottom: 20px;
+  width: 100%;
+text-align: left;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 47, 69, 1) 29%,
+    rgba(102, 116, 171, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 6vw;
+  letter-spacing: 0;
+  white-space: normal;
+  line-height:normal;
+}
+
+@media (max-width: 729px) {
+    .overlap-17{
+        width: 100%;
+        padding-top: 18px;
+    }
+    .in-control{
+        width: 100%;
+    }
+    .productcont{
+        width: 100%;
+    }
+    .product-txt{
+        text-align: center;
+        font-size: 7vh;
+    }
+
+    .total{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+         flex-wrap: wrap;
+        gap: 10px;
+    }
+    .odd{
+        flex-direction: column-reverse;
+
+    }
+
+    .total img{
+        width: 100%;
+
+    }
+    .total img:hover{
+        transform: scale(1);
+                height: fit-content;
+    }
+    .txt{
+        width: 100%;
+        padding-bottom: 18px;
+    }
+    .total img,
+  .tactical,
+  .tracksuit,
+  .caargo,
+  .jacket,
+  .tshirt {
+   
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+}
+@media (max-width: 1003px) {
+  /* ========== Global Layout Fixes ========== */
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .in-control,
+  .productcont,
+  .overlap-17,
+  .overlap-18,
+  .overlap-19,
+  .product-ranges,
+  .element-txts {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+
+  /* ========== Image Elements ========== */
+  .total img,
+  .tactical,
+  .tracksuit,
+  .caargo,
+  .jacket,
+  .tshirt {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    transform: none !important;
+  }
+
+  /* ========== Text Blocks ========== */
+  .txt,
+  .tshirt-txt,
+  .tracksuit-txt,
+  .cargo-txt,
+  .jacket-txt,
+  .tactical-txt,
+  .product-txt {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 16px 12px !important;
+    box-sizing: border-box;
+    text-align: center !important;
+    white-space: normal !important;
+  }
+
+  /* ========== Headings and Inner Text ========== */
+  .school-uniforms,
+  .tactical-garments,
+  .lowers-waist-elastic,
+  .t-shirts-neck,
+  .jerseys-neck-round-v,
+  .hoodies-style,
+  .size-charts-we,
+  .patterns-we,
+  .colours-our-client {
+    font-size: 20px !important;
+    width: 100% !important;
+    text-align: center !important;
+    left: 0 !important;
+    position: static !important;
+    margin-bottom: 10px;
+  }
+
+  .product-txt {
+    font-size: 6vw !important;
+    text-align: center;
+    white-space: normal;
+    padding: 16px 0;
+  }
+
+  /* ========== Utility Fixes ========== */
+  .poloshirtt {
+    transform: none !important;
+  }
+
+  .total {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 16px;
+    width: 100% !important;
+  }
+
+  .odd {
+    flex-direction: column-reverse !important;
+  }
+
+  .enquire-more {
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    padding-top: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .flex-slider .slide .text p {
+           font-size: clamp(0.6rem, 2.5vw, 0.85rem);  /* ~10px to 13.5px */
+    line-height: 1.3;
+  }
+    .flex-slider .slide .text h2 {
+    font-size: clamp(0.75rem, 3vw, 1rem);
+  }
+}
+
+@media (min-width: 1970px) {
+  .product-txt{
+    font-size: 120px;
+  }
+}

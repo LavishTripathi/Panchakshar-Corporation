@@ -1,0 +1,204 @@
+.why-customize {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 110px;
+}
+.overlap-16{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; ;
+}
+.colo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.rowo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rowo div{
+   flex: 1 1 300px; /* grow: 1, shrink: 1, basis: 300px */
+  height: auto; /* or set a min-height if needed */
+  aspect-ratio: 3 / 4; /* optional: maintain card ratio */
+  max-width: 100%;
+  max-height: 250px;
+  overflow: hidden;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.rowo img{
+
+  height: 100%;
+}
+
+
+.DTF {
+  
+  width: 328px;
+  height: 339px;
+  overflow: visible;
+  z-index: 4;
+}
+
+.general{
+    background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 20px 40px; /* Push text lower */
+    width: 100%;
+  height: 100%;
+}
+
+ .txt-wrapper {
+  background-image: url(https://c.animaapp.com/VFQnVRMH/img/pic-5@2x.png);
+}
+
+.cotton{
+  background-image: url(https://c.animaapp.com/VFQnVRMH/img/cotton-1@2x.png); 
+}
+.heat{
+  background-image: url(../Images/pic@2x.png);
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8)
+}
+.polyester{
+   background-image: url(https://c.animaapp.com/VFQnVRMH/img/pic-7@2x.png);
+}
+.blended{
+  background-image: url(https://c.animaapp.com/VFQnVRMH/img/pic-6@2x.png);
+}
+.sublimation{
+    background-image: url(https://c.animaapp.com/VFQnVRMH/img/pic-4@2x.png);
+    box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8)
+}
+.embroidery{
+  background-image: url(../Images/pic-3@2x.png);
+}
+.wovn{
+  background-image: url(../Images/pic-2@2x.png);
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8)
+}
+.print{
+  background-image: url(../Images/pic-1@2x.png);
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8)
+}
+.dtf-text {
+  text-align: center;
+  color: #f5eed5;
+  font-family: 'Inter', sans-serif;
+  
+  height: 25px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.dtf-text .heading {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  transition: transform 0.4s ease;
+  transform: translateY(35px); /* Starts lower in gold */
+}
+
+.dtf-text .more-text {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+/* Hover Effects */
+.DTF:hover .dtf-text {
+  height: 70px;
+}
+
+.DTF:hover .dtf-text .heading {
+  transform: translateY(15px); /* Slight lift, still inside purple */
+}
+
+.DTF:hover .dtf-text .more-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.text-wrapper-27 {
+
+  width: 277px;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 47, 69, 1) 34%,
+    rgba(77, 92, 148, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+
+.text-wrapper-28 {
+  width: 845px;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 47, 69, 1) 15%,
+    rgba(69, 85, 143, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+@media  (max-width: 768px){
+    .why-customize{
+      width: 100%;
+    }
+    .overlap-16{
+              text-align: center;
+        font-size: 7vh;
+    }
+    .text-wrapper-27, .text-wrapper-28{
+      font-size: 76px;
+    }
+}
+
+@media  (max-width: 460px){
+    .overlap-16{
+      margin-top: 40px;
+    }
+    .text-wrapper-27, .text-wrapper-28{
+      font-size: 56px;
+    }
+}
