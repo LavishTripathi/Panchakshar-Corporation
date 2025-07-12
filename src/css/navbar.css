@@ -1,0 +1,208 @@
+:root {
+  --main-02: rgba(27, 78, 155, 1);
+  --displayprop: none;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+    backdrop-filter: blur(20px);
+    border-bottom: solid 6px #2d3c7a ;
+    width: 100%;
+}
+.page-shifts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.view{
+    width: 21px;
+    height: 21px;
+}
+.text-wrapper-50{
+        color: #ffffff;
+  font-size: 16.8px;
+  letter-spacing: 0.34px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  line-height: normal;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.blue-box{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: fit-content;
+    padding-left: 12px;
+    background-color: #2d3c7a;
+    border-radius: 20px;
+}
+.navlogo{
+      max-width: 240px;
+}
+.spec{
+    overflow: hidden;
+    height: 50px;
+}
+.clogo{
+    width: 80px;
+    height: 60px;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  gap: 12px; /* space between links */
+  align-items: center;
+  justify-content: center; /* center in header */
+  padding: 10px 20px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 6px 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--main-01);
+  transition: color 0.3s ease;
+  z-index: 1;
+}
+
+/* Anchor inside nav link */
+.nav-link a {
+  color: var(--main-01);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Highlight background */
+.nav-link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--main-02);
+  border-radius: 6px;
+  opacity: 0;
+  transform: scaleX(0.8);
+  transition: all 0.3s ease;
+  z-index: -1;
+  top: -5px;
+  bottom: -5px;
+}
+
+/* Hover effects */
+.nav-link:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.nav-link:hover a {
+  color: white !important;
+}
+
+.bars, .closenav{
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Responsive tweaks */
+
+
+@media (max-width:1020px) {
+  .bars{
+    display: contents;
+    color: rgb(32, 43, 83);
+    cursor: pointer;
+  }
+  .closenav{
+    display: inline-block;
+    font-weight: 800;
+  }
+  .closenav:hover{
+    color: white;
+  }
+
+  .page-shifts{
+    display: var(--displayprop);
+    position: absolute;
+    top:0;
+    right: 0;
+    padding-top: 20px;
+    padding-right: 40px;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    padding-bottom: 15px;
+    z-index: 999;
+   padding-left: 3px;
+    align-items: start;
+     will-change: transform;
+  }
+  .nav-container{
+    flex-direction: column;
+    align-items: self-start;
+    }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    justify-content: space-around;
+    gap: 8px;
+    padding: 8px 12px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .text-wrapper-50{
+  font-size: 14.8px;
+  letter-spacing: 0.26px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+}
+ .blue-box{
+    padding-left: 8px;
+ }
+ .navbar{
+    padding: 8px 16px;
+ }
+
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    width: 100%;
+  }
+  .navlogo{
+    width: 160px;
+  }
+
+}

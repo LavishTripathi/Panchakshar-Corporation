@@ -1,0 +1,125 @@
+.overlap-27 {
+  margin-top: 20vh;
+  width: 60% ;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;  
+  align-items: start;  
+  justify-content: center;
+  gap:50px;
+}
+
+.text-wrapper-39 {
+  background: linear-gradient(
+    179deg,
+    rgba(41, 47, 69, 1) 0%,
+    rgba(102, 116, 171, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: clamp(2rem, 10vw, 108px);
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.hit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about img{
+    padding-bottom: 7px;
+}
+
+.group-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-wrapper-40 {
+  background: linear-gradient(
+    180deg,
+    rgba(41, 47, 69, 1) 0%,
+    rgba(74, 90, 146, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: clamp(1.8rem, 5vw, 3.86rem);
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.established-in {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #2b3729;
+  font-size: clamp(1.1rem, 2vw, 1.2rem);
+  letter-spacing: 0;
+  line-height:1.15;
+  margin-top: 5px;
+}
+.group-4 {
+    margin-top: 30px;
+}
+.overlap-group-9 {
+  position: relative;
+  width: 165px;
+  height: 55px;
+  border: 2px solid;
+  border-color: #292f45;
+}
+.text-wrapper-41 {
+  position: absolute;
+  top: 16px;
+  left: 43px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+    .overlap-27{
+        margin-top: 0 ;
+        width: 90%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .about img{
+        transform-origin: 100% 100%;
+        transform: rotate(90deg);
+        translate: -44% 50%;
+        margin-top: 5px;
+        padding-bottom: 0;
+        height: 2.5vh;
+        display: none;
+    }
+    .hit{
+        display: flex;
+        flex-direction: row; 
+        gap:25px;     
+        margin-bottom: 8px;
+    }
+    .overlap-group-9{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

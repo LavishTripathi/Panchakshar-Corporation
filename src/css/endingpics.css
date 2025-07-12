@@ -1,0 +1,53 @@
+ .element-pics {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ .overlap-group,  .overlap-2  {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+overflow: hidden;
+width: 100%;
+}
+
+.overlap-group img, .overlap-2 img{
+  flex: 1;
+}
+
+ .keagan-henman {
+  width: 719px;
+  height: 400px;
+  transition: transform 0.5s ease;
+}
+.keagan-henman:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+ .img {
+  width: 722px;
+  height: 400px;
+  transition: transform 0.5s ease;
+}
+.img:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+
+
+ .sincerely-media {
+  width: 721px;
+  height: 400px;
+  transition: transform 0.5s ease;
+}
+.sincerely-media:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}

@@ -1,0 +1,188 @@
+
+.overlap-23 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firsti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+        align-items: center;
+    justify-content: center;
+}
+.secondi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+        align-items: center;
+    justify-content: center;
+}
+
+.fabric-closeup {
+  width: 529px;
+  height: 513px;
+  transition: transform 0.5s;
+}
+.fabric-closeup:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.tshirt-front {
+  width: 534px;
+  height: 534px;
+  top: 480px;
+  left: 0;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.tshirt-front:hover{
+  transform: scale(1.1);
+  z-index: 10;
+
+}
+
+.tshirt-back {
+  width: 528px;
+  height: 534px;
+  transition: transform 0.5s;
+}
+.tshirt-back:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.title-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:40px;
+    padding: 10px 0;
+    padding-right: 65px;
+}
+
+.overlap-25 {
+  width: 468px;
+  height: 97px;
+}
+
+.div-2 {
+  width: 431px;
+  background: linear-gradient(
+    180deg,
+    rgba(41, 47, 69, 1) 0%,
+    rgba(87, 104, 167, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 33.6px;
+  letter-spacing: 0;
+  line-height: 33.7px;
+  white-space: nowrap;
+}
+
+.text-wrapper-33 {
+  color: #000000;
+}
+
+.text-wrapper-34 {
+  color: #000000;
+  font-size: 67.2px;
+  line-height: 67.4px;
+}
+
+.text-wrapper-35 {
+  transform: translateY(8px);
+
+  background: linear-gradient(
+    180deg,
+    rgba(41, 47, 69, 1) 0%,
+    rgba(87, 104, 167, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 33.6px;
+  letter-spacing: 0;
+  line-height: 33.7px;
+  white-space: nowrap;
+}
+
+.header-txt-2 {
+  width: 457px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #2b3729;
+  font-size: 17.9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.any-every img{
+        transition: ease all 0.5s;
+    }
+
+@media (max-width: 1023px) {
+    .title-txt{
+        padding-right: 0;
+        text-align: center;
+    }
+    .ellipse{
+        padding-left: 4px;
+    }
+    .ellipse-2{
+        padding-left: 8px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  .any-every{
+    margin-bottom: 30px;
+  }
+  .fabric-closeup,
+  .tshirt-front,
+  .tshirt-back {
+    width: 100vw;
+    height: auto;
+  }
+
+  .title-txt {
+    padding: 20px 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .overlap-25,
+  .div-2 {
+    width: 90vw;
+  }
+
+  .text-wrapper-34 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .text-wrapper-35,
+  .div-2 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  .header-txt-2 {
+    font-size: 0.95rem;
+    padding-top: 10px;
+    width: 90vw;
+  }
+}

@@ -1,0 +1,80 @@
+.overlap-3 {
+    margin-top: 110px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/9; /* Keeps the layout ratio consistent */
+}
+
+.BG {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mediamodifier-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.footer-address {
+  position: absolute;
+  bottom: 2%;
+  right: 3%;
+  z-index: 10;
+    color:#2F3F79;
+  font-size: 1.6vw; /* increased from 1.2vw */
+  line-height: 1.6;
+  text-align: right;
+  max-width: 40%;
+}
+.a-sector-noide{
+  font-family: Helvetica, sans-serif;
+}
+.text-wrapper-13 {
+  font-weight: 700; /* Make "Uttar Pradesh" bold */
+}
+
+.company-logo {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 12vw; /* increased from 10vw */
+  max-width: 180px;
+  min-width: 40px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+       .overlap-3{
+    margin-top: 60px;
+   } 
+  .footer-address {
+    font-size: 2.8vw;
+    right: 5%;
+    bottom: 3%;
+  }
+
+  .company-logo {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 480px) {
+   .overlap-3{
+    margin-top: 60px;
+   } 
+  .footer-address {
+    font-size: 3.5vw;
+    max-width: 90%;
+  }
+
+  .company-logo {
+    width: 15vw;
+  }
+}
