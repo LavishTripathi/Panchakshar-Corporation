@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Panchakshar-Corporation/static/css/main.aa8039bf.css",
-    "main.js": "/Panchakshar-Corporation/static/js/main.6d44a4a6.js",
+    "main.js": "/Panchakshar-Corporation/static/js/main.8ae0a218.js",
     "static/js/453.19adf376.chunk.js": "/Panchakshar-Corporation/static/js/453.19adf376.chunk.js",
     "static/media/fabio-alves-eAUE_FmclYE-unsplash (1).jpg": "/Panchakshar-Corporation/static/media/fabio-alves-eAUE_FmclYE-unsplash (1).1c7060c0826b59f36700.jpg",
     "static/media/jusdevoyage-nvZ4NubOIZE-unsplash (1).jpg": "/Panchakshar-Corporation/static/media/jusdevoyage-nvZ4NubOIZE-unsplash (1).86275f4131813d7ae26f.jpg",
@@ -33,11 +33,11 @@
     "static/media/whatsapp-brands-solid.svg": "/Panchakshar-Corporation/static/media/whatsapp-brands-solid.81c82576f562da6d1c5ee20a44c6f6aa.svg",
     "index.html": "/Panchakshar-Corporation/index.html",
     "main.aa8039bf.css.map": "/Panchakshar-Corporation/static/css/main.aa8039bf.css.map",
-    "main.6d44a4a6.js.map": "/Panchakshar-Corporation/static/js/main.6d44a4a6.js.map",
+    "main.8ae0a218.js.map": "/Panchakshar-Corporation/static/js/main.8ae0a218.js.map",
     "453.19adf376.chunk.js.map": "/Panchakshar-Corporation/static/js/453.19adf376.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa8039bf.css",
-    "static/js/main.6d44a4a6.js"
+    "static/js/main.8ae0a218.js"
   ]
 }
