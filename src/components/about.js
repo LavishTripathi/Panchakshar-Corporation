@@ -18,7 +18,7 @@ export default function About(){
                 <p className="established-in">
                   Established in 2017 and headquartered in Noida, Uttar Pradesh, India, Panchakshar Corporation has emerged as a leading manufacturer and supplier of custom athletic wear and casual garments across India. With a commitment to quality and customer-centricity, we specialize in crafting garments that meet diverse client specifications.<br/>
 Under the headship of Mr. Durgesh Kumar, we have gained a huge clientele across the nation. We are proudly expanding our footprint globally, delivering quality custom garments to clients worldwide.<br/> 
-In addition to serving domestic markets, we also export our products to international clients, adhering to global standards of quality and compliance. Our dedicated sales team, led by Kritika Sachan, ensures personalized support and seamless service for every client.
+In addition to serving domestic markets, we also export our products to international clients, adhering to global standards of quality and compliance. Our dedicated sales team ensures personalized support and seamless service for every client.
 
                 </p>
                 <div className="group-4">

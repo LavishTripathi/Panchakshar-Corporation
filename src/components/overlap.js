@@ -9,10 +9,7 @@ export default function Overlap(){
 
     <div class="footer-address">
       <p class="a-sector-noida">
-        <span class="span">A-90, Sector-10, Noida, 
-          <span class="text-wrapper-13">Uttar Pradesh, India</span>
-        </span>
-        <span class="spanl"> -201301</span>  
+        <span class="span">B-99, 1st Floor. Sector-10, Noida-201301</span>
       </p>
     </div>
 
